@@ -1,0 +1,26 @@
+{
+  "name": "__regl-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --live --open index.js"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.6.4",
+    "glsl": "0.0.1",
+    "glslify": "^7.1.1"
+  },
+  "dependencies": {
+    "regl": "^2.0.1"
+  }
+}
